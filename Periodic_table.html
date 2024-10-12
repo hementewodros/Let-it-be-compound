@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Periodic Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="C:\Users\Hemen Tewodros\Downloads\PTlogo.jpeg">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <div class="">
+        <center>
+            <br>
+            <h1 class="heading">The Periodic Table</h1>
+            <br><br>
+            <table class="cont">
+                <tr>
+                    <td class="color1 el-name" title="Hydrogen">1<br>H</td>
+                    <td class="none" colspan="16"></td>
+                    <td class="color9 el-name" title="Helium">2<br>He</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td class="color2 el-name" title="Lithium">3<br>Li</td>
+                    <td class="color3 el-name" title="Beryllium">4<br>Be</td>
+                    <td class="none" colspan="10"></td>
+                    <td class="color6 el-name" title="Boron">5<br>B</td>
+                    <td class="color1 el-name" title="Carbon">6<br>C</td>
+                    <td class="color1 el-name" title="Nitrogen">7<br>N</td>
+                    <td class="color1 el-name" title="Oxygen">8<br>O</td>
+                    <td class="color8 el-name" title="Fluorine">9<br>F</td>
+                    <td class="color9 el-name" title="Neon">10<br>Ne</td>
+                </tr>
+                <tr>
+                    <td class="color2 el-name" title="Sodium">11<br>Na</td>
+                    <td class="color3 el-name" title="Magnesium">12<br>Mg</td>
+                    <td class="none" colspan="10"></td>
+                    <td class="color7 el-name" title="Aluminum">13<br>Al</td>
+                    <td class="color6 el-name" title="Silicon">14<br>Si</td>
+                    <td class="color1 el-name" title="Phosphorus">15<br>P</td>
+                    <td class="color1 el-name" title="Sulfur">16<br>S</td>
+                    <td class="color8 el-name" title="Chlorine">17<br>Cl</td>
+                    <td class="color9 el-name" title="Argon">18<br>Ar</td>
+                </tr>
+                <tr>
+                    <td class="color2 el-name" title="Potassium">19<br>K</td>
+                    <td class="color3 el-name" title="Calcium">20<br>Ca</td>
+                    <td class="color5 el-name" title="Scandium">21<br>Sc</td>
+                    <td class="color5 el-name" title="Titanium">22<br>Ti</td>
+                    <td class="color5 el-name" title="Vanadium">23<br>V</td>
+                    <td class="color5 el-name" title="Chromium">24<br>Cr</td>
+                    <td class="color5 el-name" title="Manganese">25<br>Mn</td>
+                    <td class="color5 el-name" title="Iron">26<br>Fe</td>
+                    <td class="color5 el-name" title="Cobalt">27<br>Co</td>
+                    <td class="color5 el-name" title="Nickel">28<br>Ni</td>
+                    <td class="color5 el-name" title="Copper">29<br>Cu</td>
+                    <td class="color5 el-name" title="Zinc">30<br>Zn</td>
+                    <td class="color7 el-name" title="Gallium">31<br>Ga</td>
+                    <td class="color6 el-name" title="Germanium">32<br>Ge</td>
+                    <td class="color6 el-name" title="Arsenic">33<br>As</td>
+                    <td class="color1 el-name" title="Selenium">34<br>Se</td>
+                    <td class="color8 el-name" title="Bromine">35<br>Br</td>
+                    <td class="color9 el-name" title="Krypton">36<br>Kr</td>
+                </tr>
+                <tr>
+                    <td class="color2 el-name" title="Rubidium">37<br>Rb</td>
+                    <td class="color3 el-name" title="Strontium">38<br>Sr</td>
+                    <td class="color5 el-name" title="Yttrium">39<br>Y</td>
+                    <td class="color5 el-name" title="Zirconium">40<br>Zr</td>
+                    <td class="color5 el-name" title="Niobium">41<br>Nb</td>
+                    <td class="color5 el-name" title="Molybdenum">42<br>Mo</td>
+                    <td class="color5 el-name" title="Technetium">43<br>Tc</td>
+                    <td class="color5 el-name" title="Ruthenium">44<br>Ru</td>
+                    <td class="color5 el-name" title="Rhodium">45<br>Rh</td>
+                    <td class="color5 el-name" title="Palladium">46<br>Pd</td>
+                    <td class="color5 el-name" title="Silver">47<br>Ag</td>
+                    <td class="color5 el-name" title="Cadmium">48<br>Cd</td>
+                    <td class="color7 el-name" title="Indium">49<br>In</td>
+                    <td class="color7 el-name" title="Tin">50<br>Sn</td>
+                    <td class="color6 el-name" title="Antimony">51<br>Sb</td>
+                    <td class="color6 el-name" title="Tellurium">52<br>Te</td>
+                    <td class="color8 el-name" title="Iodine">53<br>I</td>
+                    <td class="color9 el-name" title="Xenon">54<br>Xe</td>
+                </tr>
+                <tr>
+                    <td class="color2 el-name" title="Cesium">55<br>Cs</td>
+                    <td class="color3 el-name" title="Barium">56<br>Ba</td>
+                    <td class="color4" title="Lanthanides">57-71<br>&nbsp;</td>
+                    <td class="color5 el-name" title="Hafnium">72<br>Hf</td>
+                    <td class="color5 el-name" title="Tantalum">73<br>Ta</td>
+                    <td class="color5 el-name" title="Tungsten">74<br>W</td>
+                    <td class="color5 el-name" title="Rhenium">75<br>Re</td>
+                    <td class="color5 el-name" title="Osmium">76<br>Os</td>
+                    <td class="color5 el-name" title="Iridium">77<br>Ir</td>
+                    <td class="color5 el-name" title="Platinum">78<br>Pt</td>
+                    <td class="color5 el-name" title="Gold">79<br>Au</td>
+                    <td class="color5 el-name" title="Mercury">80<br>Hg</td>
+                    <td class="color7 el-name" title="Thallium">81<br>Tl</td>
+                    <td class="color7 el-name" title="Lead">82<br>Pb</td>
+                    <td class="color7 el-name" title="Bismuth">83<br>Bi</td>
+                    <td class="color6 el-name" title="Polonium">84<br>Po</td>
+                    <td class="color8 el-name" title="Astatine">85<br>At</td>
+                    <td class="color9 el-name" title="Radon">86<br>Rn</td>
+                </tr>
+                <tr>
+                    <td class="color2 el-name" title="Francium">87<br>Fr</td>
+                    <td class="color3 el-name" title="Radium">88<br>Ra</td>
+                    <td class="color10" title="Actinides">89-103<br>&nbsp;</td>
+                    <td class="color5 el-name" title="Rutherfordium">104<br>Rf</td>
+                    <td class="color5 el-name" title="Dubnium">105<br>Db</td>
+                    <td class="color5 el-name" title="Seaborgium">106<br>Sg</td>
+                    <td class="color5 el-name" title="Bohrium">107<br>Bh</td>
+                    <td class="color5 el-name" title="Hassium">108<br>Hs</td>
+                    <td class="color5 el-name" title="Meitnerium">109<br>Mt</td>
+                    <td class="color5 el-name" title="Darmstadtium">110<br>Ds</td>
+                    <td class="color5 el-name" title="Roentgenium">111<br>Rg</td>
+                    <td class="color5 el-name" title="Copernicium">112<br>Cn</td>
+                    <td class="color11 el-name" title="Nihonium">113<br>Nh</td>
+                    <td class="color11 el-name" title="Flerovium">114<br>Fl</td>
+                    <td class="color11 el-name" title="Moscovium">115<br>Mc</td>
+                    <td class="color11 el-name" title="Livermorium">116<br>Lv</td>
+                    <td class="color11 el-name" title="Tennessine">117<br>Ts</td>
+                    <td class="color11 el-name" title="Oganesson">118<br>Og</td>
+                </tr>
+                <tr>
+                    <td class="none"></td>
+                </tr>
+                <tr class="lant">
+                    <td class="none" colspan="2" rowspan="2"></td>
+                    <td class="color4 el-name" title="Lanthanum">57<br>La</td>
+                    <td class="color4 el-name" title="Cerium">58<br>Ce</td>
+                    <td class="color4 el-name" title="Praseodymium">59<br>Pr</td>
+                    <td class="color4 el-name" title="Neodymium">60<br>Nd</td>
+                    <td class="color4 el-name" title="Promethium">61<br>Pm</td>
+                    <td class="color4 el-name" title="Samarium">62<br>Sm</td>
+                    <td class="color4 el-name" title="Europium">63<br>Eu</td>
+                    <td class="color4 el-name" title="Gadolinium">64<br>Gd</td>
+                    <td class="color4 el-name" title="Terbium">65<br>Tb</td>
+                    <td class="color4 el-name" title="Dysprosium">66<br>Dy</td>
+                    <td class="color4 el-name" title="Holmium">67<br>Ho</td>
+                    <td class="color4 el-name" title="Erbium">68<br>Er</td>
+                    <td class="color4 el-name" title="Thulium">69<br>Tm</td>
+                    <td class="color4 el-name" title="Ytterbium">70<br>Yb</td>
+                    <td class="color4 el-name" title="Lutetium">71<br>Lu</td>
+                    <td class="none" colspan="1" rowspan="1"></td>
+                </tr>
+                <tr>
+                    <td class="color10 el-name" title="Actinium">89<br>Ac</td>
+                    <td class="color10 el-name" title="Thorium">90<br>Th</td>
+                    <td class="color10 el-name" title="Protactinium">91<br>Pa</td>
+                    <td class="color10 el-name" title="Uranium">92<br>U</td>
+                    <td class="color10 el-name" title="Neptunium">93<br>Np</td>
+                    <td class="color10 el-name" title="Plutonium">94<br>Pu</td>
+                    <td class="color10 el-name" title="Americium">95<br>Am</td>
+                    <td class="color10 el-name" title="Curium">96<br>Cm</td>
+                    <td class="color10 el-name" title="Berkelium">97<br>Bk</td>
+                    <td class="color10 el-name" title="Californium">98<br>Cf</td>
+                    <td class="color10 el-name" title="Einsteinium">99<br>Es</td>
+                    <td class="color10 el-name" title="Fermium">100<br>Fm</td>
+                    <td class="color10 el-name" title="Mendelevium">101<br>Md</td>
+                    <td class="color10 el-name" title="Nobelium">102<br>No</td>
+                    <td class="color10 el-name" title="Lawrencium">103<br>Lr</td>
+                </tr>
+            </table>
+        </center>
+        <div class="container">
+        <div id="COMPOUND" class="compounds resource-box">
+            <h1 id="comp_h1">Choose elements to form compounds</h1>
+            <p id="comp_result"><strong>Result</strong> will be shown here...</p>
+    
+            </div>
+        <div class="resource-box">
+            <h2>Link: To Our Periodic Table Resource page</h2>
+            <p>Visit our website to explore the periodic table resource page in detail.</p>
+            <a href="./rp.html" target="_blank">Visit Website</a>
+        </div>
+        <div class="resource-box">
+            <h2>Link: To Our About Us Page</h2>
+            <p>Visit our website to understand more about us.</p>
+            <a href="about-us.html">About us</a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const eleNames = document.querySelectorAll('.el-name');
+            let selectedElements = [];
+
+            eleNames.forEach(eleName => {
+                let isMouseDown = false;
+
+                eleName.addEventListener('mousedown', event => {
+                    isMouseDown = true;
+                });
+
+                eleName.addEventListener('mouseup', event => {
+                    if (isMouseDown && !event.ctrlKey) {
+                        isMouseDown = false;
+                        selectedElements = [];
+                        console.log('Selected elements reset.');
+                    }
+                });
+
+                eleName.addEventListener('click', event => {
+                    if (event.ctrlKey) {
+                        if (selectedElements.length < 4) {
+                            const message = eleName.getAttribute('title');
+                            selectedElements.push(message);
+                            console.log(selectedElements);
+                        }
+                    } else {
+                        const message = eleName.getAttribute('title');
+                        window.open("https://en.wikipedia.org/wiki/" + message, "_blank");
+                    }
+                });
+            });
+
+            document.addEventListener('keydown', event => {
+                if (event.key === 'Enter' && event.ctrlKey) {
+                    if (selectedElements.length > 0) {
+                        if (selectedElements.length > 4) {
+                            selectedElements = selectedElements.slice(0, 4);
+                        }
+                        const chemicalsString = selectedElements.join(' + ');
+                        window.Chemicals = chemicalsString;
+                        // Send a POST request
+
+                        const socket = new WebSocket("ws://localhost:8766");
+
+                        socket.onopen = function(event) {
+                            console.log("WebSocket connection opened.");
+                            const chemicalsString = JSON.stringify(window.Chemicals);
+                            if (chemicalsString && chemicalsString !== "[]") {
+                                socket.send(chemicalsString);
+                            }
+                        };
+
+                        const div = document.getElementById('comp_h1');
+                        div.innerHTML = window.Chemicals;
+
+                        const par = document.getElementById('comp_result');
+
+                        const loader = document.getElementById('loader');
+
+                        socket.onmessage = function(event) {
+                            console.log("Received message from Python:", event.data.toString());
+                            const result = event.data;
+                            par.style.display = 'block';
+
+                            par.innerHTML = result;
+                            loader.style.display = 'none';
+                        };
+
+                        selectedElements = [];
+                    } else {
+                        console.log('No elements selected.');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
