@@ -1,5 +1,5 @@
-## README for Periodic Table Web Application
-
+## README for Let-It-Be-Compound
+# Sci-Topia's Original Project
 ### Project Overview
 
 This project is a **Periodic Table Web Application** that allows users to explore elements interactively, form chemical compounds using selected elements, and view educational resources such as videos and images related to the periodic table.
