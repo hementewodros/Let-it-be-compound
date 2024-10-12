@@ -2,7 +2,7 @@
 # Sci-Topia's Original Project
 ### Project Overview
 
-This project is a **Let-It-Be-Compound** that allows users to explore elements interactively, form chemical compounds using selected elements, and view educational resources such as videos and images related to the periodic table.
+This project is a **interactive periodic table** that allows users to explore elements interactively, form chemical compounds using selected elements, and view educational resources such as videos and images related to the periodic table.
 
 ### Features
 1. **Interactive Periodic Table**:
